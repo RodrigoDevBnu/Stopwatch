@@ -1,12 +1,12 @@
 body {
     display: flex;
-    flex-direction: column; /* Modificado para empilhar elementos verticalmente */
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
     margin: 10px;
     background-color: rgba(8, 8, 90, 0.918);
-    background-image: url("/img-sound/mulher-jovem-correndo-na-praia.jpg");
+    background-image: url("./img-sound/mulher-jovem-correndo-na-praia.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -29,7 +29,7 @@ h1 {
 }
 
 #numeros {
-    display: flex; /* Modificado para colocar os números em uma linha */
+    display: flex; 
 }
 
 #minutos {
@@ -39,7 +39,7 @@ h1 {
     text-align: center;
     font-size: 130px;
     background-color: #1c5207;
-    margin-right: 10px; /* Adicionado para separar os números */
+    margin-right: 10px; 
     border-radius: 15px;
     padding: 10px;
 }
@@ -50,7 +50,7 @@ h1 {
     text-align: center;
     font-size: 130px;
     background-color: #1c5207;
-    margin-right: 10px; /* Adicionado para separar os números */
+    margin-right: 10px; 
     border-radius: 15px;
     padding: 10px;
 }
@@ -61,18 +61,18 @@ h1 {
     text-align: center;
     font-size: 100px;
     background-color: #1c5207;
-    margin-right: 10px; /* Adicionado para separar os números */
+    margin-right: 10px; 
     border-radius: 15px;
     padding: 10px;
 }
 
 #botoes {
-    display: flex; /* Adicionado para colocar os botões em uma linha */
+    display: flex; 
 }
 
 button {
-    margin-top: 10px; /* Adicionado para separar os botões dos números */
-    margin-left: 10px; /* Adicionado para separar os botões */
+    margin-top: 10px;
+    margin-left: 10px; 
     padding: 15px;
     border-radius: 1000%;
     background-color: rgb(204, 2, 2);

@@ -1,0 +1,86 @@
+body {
+    display: flex;
+    flex-direction: column; /* Modificado para empilhar elementos verticalmente */
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 10px;
+    background-color: rgba(8, 8, 90, 0.918);
+    background-image: url("/img-sound/mulher-jovem-correndo-na-praia.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1 {
+    height: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.603);
+    
+}
+
+#cronometro {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.678);
+    border-radius: 1000px;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+    margin-bottom: 20px;
+}
+
+#numeros {
+    display: flex; /* Modificado para colocar os números em uma linha */
+}
+
+#minutos {
+    color: rgb(0, 0, 0, 0.555);
+    -webkit-text-stroke: 1px;
+    -webkit-text-fill-color: rgb(252, 9, 9);
+    text-align: center;
+    font-size: 130px;
+    background-color: #1c5207;
+    margin-right: 10px; /* Adicionado para separar os números */
+    border-radius: 15px;
+    padding: 10px;
+}
+#segundos {
+    color: rgb(0, 0, 0, 0.555);
+    -webkit-text-stroke: 1px;
+    -webkit-text-fill-color: rgb(253, 225, 225);
+    text-align: center;
+    font-size: 130px;
+    background-color: #1c5207;
+    margin-right: 10px; /* Adicionado para separar os números */
+    border-radius: 15px;
+    padding: 10px;
+}
+#milissegundos {
+    color: rgba(0, 0, 0, 0.555);
+    -webkit-text-stroke: 1px;
+    -webkit-text-fill-color: rgb(105, 105, 105);
+    text-align: center;
+    font-size: 100px;
+    background-color: #1c5207;
+    margin-right: 10px; /* Adicionado para separar os números */
+    border-radius: 15px;
+    padding: 10px;
+}
+
+#botoes {
+    display: flex; /* Adicionado para colocar os botões em uma linha */
+}
+
+button {
+    margin-top: 10px; /* Adicionado para separar os botões dos números */
+    margin-left: 10px; /* Adicionado para separar os botões */
+    padding: 15px;
+    border-radius: 1000%;
+    background-color: rgb(204, 2, 2);
+    transition: background-color 0.3s ease;
+    border: 1px solid rgba(0, 0, 0, 0.226);
+    color: aliceblue;
+}
+button:hover{
+    background-color: rgb(89, 180, 196);
+
+}

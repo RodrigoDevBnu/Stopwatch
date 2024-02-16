@@ -16,6 +16,6 @@ Um cronômetro simples com contagem de minutos, segundos e milissegundos, desenv
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   git clone https://github.com/RodrigoDevBnu/Stopwatch
    
 Teste aqui(https://rodrigodevbnu.github.io/Stopwatch/)
